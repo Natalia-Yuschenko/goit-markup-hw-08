@@ -28,6 +28,7 @@
 
     @media screen and (min-width: 768px) {
       margin-right: 165px;
+      margin-bottom: 60px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -54,6 +55,18 @@
     display: inline-block;
     margin-bottom: 20px;
   }
+
+  &__subscription-wrapper {
+
+    @media screen and (min-width: 1200px) {
+      margin-top: 60px;
+    }
+
+    @media screen and (max-width: 1199px) {
+      margin-top: 60px;
+    }
+  }
+ 
 }
 
 .contact-list__text {
@@ -80,6 +93,16 @@
   }
 }
 
+.social-list {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+  }
+ 
+  @media screen and (max-width: 768px) {
+    margin-bottom: 60px;
+  }
+
+}
 .social-list__icon-footer {
   fill: var(--white-text-color);
 }
@@ -88,6 +111,8 @@
   @media screen and (min-width: 1200px) {
     display: flex;
   }
+
+
 
   &__text-wrapper {
     margin-right: 10px;
@@ -116,9 +141,12 @@
 
     @media screen and (min-width: 768px) {
       width: 450px;
+      height: 50px;
+      margin-bottom: 20px;
     }
     @media screen and (min-width: 1200px) {
       width: 358px;
+      height: 50px;
     }
     @media screen and (max-width: 768px) {
       margin-bottom: 20px;
