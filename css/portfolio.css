@@ -447,6 +447,10 @@ p {
   font-size: 22px;
 }
 
+.mob-social-list__item::after .mob-social-list__item:not(:last-child) {
+  display: none;
+}
+
 .header-address__icon {
   margin-right: 10px;
   fill: var(--primary-text-color);
