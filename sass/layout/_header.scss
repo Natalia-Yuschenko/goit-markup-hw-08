@@ -217,12 +217,19 @@
   content: "|";
   position: absolute;
   margin-left: 15px;
-  align-items: center;
+  // align-items: center;
+  align-items: baseline;
+  // width: 22px;
+  // height: 0px;
+  // left: 214px;
+  // top: 726px;
+  // border: 1px solid;
+  // transform: rotate(90deg);  
   color: rgba(33, 33, 33, 0.2);
   font-size: 22px;
-  .mob-social-list__item:not(:last-child) {
-  display: none;
-  }
+      &:not(:last-child) {
+        display: none;
+      }
 }
 
 .header-address__icon {
@@ -281,10 +288,6 @@
 }
 
 .mob-social-list {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
-
-  }
-
   @media screen and (min-width: 768px) {
     display: none;
   }
@@ -300,7 +303,7 @@
     top: 0;
     // left: 0;
 
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 
     padding: 48px 40px;
