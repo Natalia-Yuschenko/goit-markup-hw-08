@@ -128,13 +128,19 @@
 
 .portfolio-card__description {
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    min-height: 147px;
+    max-height: 147px;
   }
 
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  padding: 20px 24px 20px 24px;
+  padding: 20px 24px;
+}
+
+.desc-techno {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    height: 147px;
+  }
 }
 
 .portfolio-card__title {
